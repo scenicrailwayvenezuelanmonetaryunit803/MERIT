@@ -142,6 +142,29 @@ export JASCO_ROOT=/path/to/jasco-audiocraft
 
 ---
 
+## Training Data
+
+The factor-controlled training triplets are published on HuggingFace:
+
+| Factor | Folders | Triplets |
+|---|---|---|
+| Melody | 5,000 | 125,000 |
+| Rhythm | 5,000 | 125,000 |
+| Timbre | 1,855 | 46,241 |
+
+```bash
+# Download all three factor archives (~50 GB melody, ~50 GB rhythm, ~10 GB timbre)
+huggingface-cli download --repo-type dataset amaai-lab/merit \
+    melody_triplets.tar.gz rhythm_triplets.tar.gz timbre_triplets.tar.gz \
+    --local-dir ./data/triplets
+```
+
+Each archive extracts to `triplets_*/triplet/{anchor.wav, positive_01-05.wav, negative.wav, triplet_meta.json}`.
+
+> The timbre factor uses audio stems from [MoisesDB](https://music.ai/research/moisesdb/). The full dataset is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+---
+
 ## Data Setup
 
 ### MoisesDB
