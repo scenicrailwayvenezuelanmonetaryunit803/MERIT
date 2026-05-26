@@ -146,7 +146,7 @@ export JASCO_ROOT=/path/to/jasco-audiocraft
 
 ### MoisesDB
 
-1. Request access and download [MoisesDB v0.1](https://music.ai/research/moisesdb/) from Moises Inc.
+1. Request access and download [MoisesDB](https://github.com/moises-ai/moises-db) from Moises Inc.
 2. Unpack so that the structure is:
    ```
    /your/path/moisesdb/moisesdb_v0.1/<song_id>/...
